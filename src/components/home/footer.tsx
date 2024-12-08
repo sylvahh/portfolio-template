@@ -1,5 +1,4 @@
-import { chevronUp, github, linkedin } from "@/constants/assets";
-import { SOCIAL_LINKS } from "@/global.types";
+import { chevronUp, linkedin } from "@/constants/assets";
 
 const Footer = () => {
 	const date = new Date();

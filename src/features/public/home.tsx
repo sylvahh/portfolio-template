@@ -6,12 +6,11 @@ import AboutMe from "@/components/home/about-me";
 import Footer from "@/components/home/footer";
 import NavigationButtons from "@/components/home/navigation-btns";
 import Stacks from "@/components/home/stacks";
-import { USER } from "@/global.types";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
-	const [user, setUser] = React.useState<USER | null>();
+
 	const [isLoading, setIsLoading] = React.useState(true);
 
 	const typewriterDelay = 2000;
