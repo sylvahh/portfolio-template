@@ -10,9 +10,6 @@ const NavigationButtons = ({ delay }: NavigationButtonsProps) => {
 				<CTAButton type="anchor" href="#about">
 					About me
 				</CTAButton>
-				<CTAButton type="anchor" href="#projects">
-					Projects
-				</CTAButton>
 				<CTAButton type="anchor" href={resume} target="_blank">
 					View Resume
 				</CTAButton>
